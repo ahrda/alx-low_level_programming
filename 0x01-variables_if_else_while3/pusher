@@ -1,8 +1,8 @@
 #!/bin/bash
-echo "Enter Your Name: "
-read my_var
-echo "Welcome ${my_var}!"
-
+#echo "Enter Your Name: "
+#read my_var
+#echo "Welcome ${my_var}!"
+chmod 744 *
 git add .
-git commit -m "${my_var}"
+git commit -m "{my_var}"
 git push
