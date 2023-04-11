@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo "name of the file"
+echo "input file name"
 read filename
 
 echo "#!/bin/bash" > ${filename}
+
+chmod +x ${filename}
