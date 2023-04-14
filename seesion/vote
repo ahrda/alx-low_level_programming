@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Your name?"
+read username
+
+echo -e "age? \n in (numbers)"
+read age
+
+echo "nationality"
+read natio
+
+echo "Your name is ${usernmae} and you are ${age} years old and you are from ${natio}"
+
+echo -e " name: ${username} \n age: ${age} \n from: ${natio}" > ${username}
